@@ -1,0 +1,1212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+body {
+
+
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color:inherit
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #4B1C13;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #4B1C13;
+}
+
+.body1 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.body2 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+}
+
+.label{
+  font-size: 14px;
+  font-weight: 600;
+  color:#4B1C13;
+}
+
+.headline4 {
+  color: #3D3D4E;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* header */
+
+.logotype {margin-right:32px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logotype__detail {
+  color: #FFCA20;
+}
+
+.header {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logonav {
+  display: flex;
+  align-items: center;
+  width: 540px;
+}
+
+.logonav_nav{
+  display:flex;
+  gap:32px;
+}
+
+.logonav_nav a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4B1C13;
+}
+
+.btn {
+  border-style: none;
+  background-color: #FFCA20;
+  height: 44px;
+  width: 116px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4B1C13;
+  transition-duration: 0.7s;
+}
+
+/* body */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  margin-bottom: 96px;
+  align-items: center;
+}
+
+.hero__1half {
+  width: 544px;
+}
+
+.hero__1half p {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+
+.hero__2half {
+  width: 544px;
+}
+
+
+/* сладости на праздник */
+
+.holidays {
+  text-align: center;
+}
+
+.holidays__cards {
+  margin-top: 64px;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.holidays__cards-2 {
+  margin-top: 32px;
+}
+
+.card {
+  width: 352px;
+  height: 470px;
+  position: relative;
+
+}
+
+.card__img {
+  position: absolute;
+  z-index: 100;
+}
+
+.card__content {
+  position: absolute;
+  top: 171px;
+  left: 65px;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  width: 287px;
+  height: 299px;
+  background-color: rgb(255, 255, 255);
+  justify-content: end;
+  align-items: center;
+  border-radius: 32px;
+  box-shadow: 0 20px 20px 0 rgba(75, 28, 19, 0.15);
+}
+
+.card__content-text {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.card__content button {
+  margin-bottom: 32px;
+}
+
+/* why us? */
+
+.proof {
+  text-align: center;
+  margin-top: 96px;
+}
+
+.proof__cards {
+  margin-top: 64px;
+  margin-bottom: 96px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.proof__cards__card {
+  display: block;
+  padding: 32px;
+  width: 352px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 128px 32px 32px 32px;
+  box-shadow: 0 20px 20px 0 rgba(75, 28, 19, 0.15);
+
+}
+
+.proof__cards__card-detail {
+  padding-bottom: 58px;
+}
+
+.proof__cards__card-detail-2 {
+  margin-top: 32px;
+}
+
+.proof__cards__card img {
+  margin-bottom: 32px;
+}
+
+.proof__cards__card.headline4 {
+  margin-bottom: 32px;
+}
+
+.proof__cards__card p {
+  margin-top: 32px;
+  line-height: 26px;
+
+}
+
+
+.proof__window {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 32px 128px 32px 32px;
+  height: 163px;
+  background: linear-gradient(0deg, rgba(255, 204, 32, 0.5), rgba(255, 204, 32, 0.1));
+  ;
+}
+
+.yellow_h2 {
+  color: #FFCA20;
+}
+
+.proof__window h2 {
+  margin-bottom: 32px;
+}
+
+/* Первая форма */
+.wrapper {
+  display: flex;
+  margin-top: 160px;
+  height: 600px;
+  background-color: #F3F3F3;
+
+}
+
+.form1__photo {
+  top: -64px;
+  position: relative;
+  width: 544px;
+  height: 600px;
+}
+
+.form1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.form1__form {
+  width: 544px;
+  display: flex;
+
+  flex-direction: column;
+  margin-top: 64px;
+}
+
+.form1__form h2 {
+  margin-bottom: 32px;
+}
+
+
+input[type=text] {
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 300;
+  border: none;
+  width: 544px;
+  height: 48px;
+
+}
+
+
+input[type=text]::placeholder {
+  font-size: 14px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-left: 16px;
+}
+
+input[type=file] {
+  display: none;
+}
+
+label {
+  display: block;
+  background-image: url('/Practice/imagesss/photo_form.png');
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-right: 8px;
+
+}
+
+.input__uploadphoto {
+  display: flex;
+  align-items: center;
+  width: 544px;
+  height: 48px;
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+
+.input__uploadphoto span {
+  cursor: pointer;
+}
+
+.orderprocess {
+  margin-top: 96px;
+  text-align: center;
+}
+
+.ordercards {
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ordercards__content {
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  width: 256px;
+  border-radius: 32px;
+
+}
+
+.ordercards__content-1 {
+  background: linear-gradient(0deg, rgba(255, 204, 32, 0.1), rgba(255, 204, 32, 0.25));
+}
+
+.ordercards__content-2 {
+  background: linear-gradient(0deg, rgba(223, 21, 21, 0.1), rgba(223, 21, 21, 0.25));
+}
+
+.ordercards__content-3 {
+  background: linear-gradient(0deg, rgba(31, 20, 186, 0.1), rgba(31, 20, 186, 0.25));
+}
+
+.ordercards__content-4 {
+  background: linear-gradient(0deg, rgba(75, 28, 19, 0.1), rgba(75, 28, 19, 0.25));
+}
+
+.ordercards__content-icon {
+  top: -48px;
+  position: absolute;
+}
+
+.ordercards__content-text {
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+.ordercards__content-text p {
+  margin-top: 24px;
+}
+
+/* feedback */
+
+.feedback {
+  margin-top: 96px;
+  text-align: center;
+}
+
+.feedback h2{
+  margin-bottom:64px;
+}
+
+.feedbackcards {
+ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedbackcards_card {
+  background-color: #ffffff;
+  text-align: center;
+  display: block;
+  position: relative;
+  border-radius: 128px 32px 32px 32px;
+  box-shadow: 0 20px 20px 0 rgba(75, 28, 19, 0.15);
+  width: 352px;
+  line-height: 26px;
+  padding: 32px 32px 80px 32px;
+
+}
+
+.feedbackcards_card p {
+  margin: 32px 0 32px 0;
+}
+
+.stars img {
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 32px;
+
+}
+
+.avatar{
+  position:absolute;
+  left:128.7px;
+  top:392px;
+}
+
+/* Вторая форма */
+.form2__photo {
+  position: relative;
+  top:-48px;
+  width: 544px;
+  height: 600px;
+}
+
+.form2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.form2__form {
+  width: 544px;
+  display: flex;
+
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+.form2__form h2 {
+  margin-bottom: 32px;
+}
+
+.form2__form p{
+  margin-bottom:32px;
+}
+
+.mufftype{
+  border:none;
+  position: relative;
+  width: 544px;
+  height: 48px;
+  font-size: 14px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-left:16px;
+  appearance: none;
+  -webkit-appearance: none;
+  margin-bottom:24px;
+}
+
+/* Наш блог */
+
+.ourblog{
+  margin-top:96px;
+  text-align: center;
+}
+
+
+.card2{
+  position: relative;
+  height:522px;
+  width: 352px;
+}
+.blogcards{
+  margin-top:32px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.card2__img {
+  z-index: 100;
+  position: absolute;
+}
+
+.card2__content {
+  position: absolute;
+  line-height: 26px;
+  top:230px;
+  left:65px;
+  z-index: 0;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width:287px;
+  padding:96px 32px 32px 32px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  border-radius: 32px;
+  box-shadow: 0 20px 20px 0 rgba(75, 28, 19, 0.15);
+}
+
+.card2__content-text {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+/* Где нас искать? */
+
+.contact_info{
+  margin-top:96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts{
+  
+  display: block;
+  margin-right:32px;
+}
+
+
+.wherewe h2{
+  margin-bottom:32px;
+}
+
+.wherewe p{
+  margin-bottom: 32px;
+  line-height: 26px;
+}
+
+.ourwork{
+  
+  display: block;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.ourwork h2{
+  margin-bottom:32px;
+}
+
+.ourcontacts{
+  display: block;
+  margin-bottom: 32px;
+}
+
+.ourcontacts h2{
+
+  margin-bottom: 32px;
+}
+.contacticon img{
+  margin-right: 24px;
+}
+
+/* Быстрый заказ */
+
+.quickorder{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:96px;
+  height: 254px;
+  border-radius: 128px 32px 32px 32px;
+  background: linear-gradient(0deg,rgb(255,202,32) ,rgb(255,229,147) );
+}
+
+.quickorder__content{
+  display:flex;
+  width: 420px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quickorder__content h2{
+  margin-bottom:16px;
+
+}
+
+.quickorder__content span{
+  margin-bottom:24px;
+}
+
+.impressive__button{ 
+  border-style: none;
+  background-color: #4B1C13;
+  height: 44px;
+  width: 116px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 128px;
+}
+
+.impressive__button:hover {
+  background-color: #e5b71e;
+  transition-duration: 0.7s;
+}
+
+
+/* подвал */
+
+.footer{
+  line-height: 26px;
+  margin-top:96px;
+  height:100%;
+  width:100%;
+  background-color: rgba(137,137,137,0.25);
+}
+
+.footer__content{
+  display: flex;
+  padding-top:32px;
+  flex-direction: row;
+}
+
+.footer__content  span{
+  margin-bottom:24px;
+}
+.logocolumn{
+  display: flex;
+  flex-direction: column;
+  width:25%;
+}
+
+.helpcolumn{
+display: flex;
+  flex-direction: column;
+  width:25%;}
+
+.infocolumn{
+display: flex;
+  flex-direction: column;
+  width:25%;}
+
+
+.logocolumn p{
+  margin-bottom: 24px;
+} 
+
+
+
+.socialmediacolumn{
+display: flex;
+  flex-direction: column;
+  width:25%;}
+
+.gloryant{
+    background-color: rgba(137,137,137,0.50);
+    height: 64px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.gloryant .body2{
+  display: inline-block;
+}
+
+/* Адаптив */
+
+
+@media(max-width:391px){
+
+body{
+  width:390px;
+  font-size: 14px;
+}
+
+.container{
+  width:370px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.body1 {
+  font-size: 14px;
+}
+
+.body2 {
+  font-size: 12px;
+}
+
+.label{
+  font-size: 12px;
+}
+
+.headline4 {
+  font-size: 16px;
+}
+
+.header {
+  flex-direction: column;
+  height: 144px;
+  justify-content: center;
+  margin-bottom:64px;
+}
+
+.logonav {
+  display: flex;
+  flex-direction: column;
+  width: 5px;
+  margin:0;
+}
+
+.logonav_nav {
+  gap:24px;
+  margin:16px 0;
+}
+
+/* body */
+
+.hero {
+  flex-direction: column-reverse;
+  text-align: center;
+  justify-content: center;
+  margin-bottom:64px;
+}
+
+.hero__1half {
+  width: auto;
+  text-align: center;
+}
+
+.hero__1half p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.hero__2half img{
+  width:370px;
+}
+
+.hero__2half{
+  width:370px;
+}
+
+
+
+
+/* сладости на праздник */
+
+.holidays__cards {
+  margin-top: 32px;
+  gap:24px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.holidays__cards-2 {
+  display: none;
+}
+
+.card {
+  height: 440px;
+  width: 370px;
+}
+
+.card__content {
+  height: 267px;
+}
+
+.card__content-text {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* why us? */
+
+.proof {
+  text-align: center;
+  margin-top: 64px;
+}
+
+.proof__cards {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  gap:24px;
+  flex-direction: column;
+}
+
+.proof__cards__card-detail-2 {
+  margin-top: 0;
+}
+
+.proof__cards__card img {
+  margin-bottom: 24px;
+}
+
+.proof__cards__card p {
+  margin-top: 16px;
+  line-height: 26px;
+
+}
+
+.proof__window {
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 128px;
+  padding:32px 0;
+}
+
+.yellow_h2 {
+  color: #FFCA20;
+}
+
+.proof__window h2 {
+  margin-bottom: 32px;
+}
+
+/* Первая форма */
+.wrapper {
+  display: flex;
+  margin-top: 64px;
+  height: 530px;
+  background-color: #F3F3F3;
+
+}
+
+.form1__photo{
+  height: 200px;
+  width:370px;
+}
+
+.form1__photo img{
+  width:370px;
+  object-fit: cover;
+  height:200px;
+  border-radius: 32px 128px 32px 128px;
+}
+
+
+.form1 {
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  height: auto;
+}
+
+.form1__form {
+  width: 100%;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.form1__form h2 {
+  margin-bottom: 24px;
+}
+
+
+input[type=text] {
+  margin-bottom: 16px;
+  width:100%;
+  height: 48px;
+
+}
+
+.input__uploadphoto {
+  width: 100%;
+}
+
+.orderprocess {
+  margin-top: 64px;
+}
+
+.ordercards {
+  margin-top: 64px;
+
+  gap:24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ordercards__content {
+  line-height: 20px;
+  width: 100%;
+
+}
+
+
+.ordercards__content-icon {
+  top: -48px;
+  position: absolute;
+}
+
+.ordercards__content-text {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.ordercards__content-text p {
+  margin-top: 16px;
+}
+
+/* feedback */
+
+.feedback {
+  margin-top: 64px;
+}
+
+.feedback h2{
+  margin-bottom:32px;
+}
+
+.feedbackcards {
+  margin-bottom:112px;
+  gap:80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.feedbackcards_card {
+  text-align: center;
+  display: block;
+  position: relative;
+  border-radius: 128px 32px 32px 32px;
+  width: 100%;
+  line-height: 20px;
+  padding: 24px 24px 80px 24px;
+
+}
+
+.feedbackcards_card p {
+  margin: 16px 0 16px 0;
+}
+
+.quotequote{
+  display: none;
+}
+
+.stars img {
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 16px;
+
+}
+
+.avatar{
+  top:212px;
+}
+
+/* Вторая форма */
+.form2__photo {
+  display: none;
+}
+
+.form2 {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form2__form {
+  width: 100%;
+  margin-top: 48px;
+}
+
+.form2__form h2 {
+  margin-bottom: 24px;
+}
+
+.form2__form p{
+  margin-bottom:24px;
+}
+
+.mufftype{
+  width: 100%;
+}
+
+/* Наш блог */
+
+.ourblog{
+  margin-top:64px;
+}
+
+
+.card2{
+  position: relative;
+  height:514px;
+  width: 100%;
+}
+.blogcards{
+  margin-top:32px;
+  gap:24px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card2__img {
+  z-index: 100;
+  position: absolute;
+}
+
+.card2__content {
+  width:287px;
+  height:290px;
+  padding:96px 24px 24px 24px;
+}
+
+.card2__content-text {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+/* Где нас искать? */
+
+.contact_info{
+  margin-top:64px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacts{
+  display: block;
+  margin-right:0;
+  text-align: center;
+}
+
+
+.wherewe h2{
+  margin-bottom:16px;
+}
+
+.wherewe p{
+  margin-bottom: 24px;
+  line-height: 20px;
+}
+
+.ourwork{
+  margin-bottom: 24px;
+}
+.ourwork h2{
+  margin-bottom:16px;
+}
+
+.ourcontacts{
+  margin-bottom: 24px;
+}
+
+.ourcontacts h2{
+
+  margin-bottom: 16px;
+}
+.contacticon img{
+  margin-right: 24px;
+  margin-bottom:24px;
+}
+
+.map{
+  width:370px;
+}
+
+.map img{
+  width:370px;
+}
+
+/* Быстрый заказ */
+
+.quickorder{
+  margin-top:64px;
+ 
+}
+
+.quickorder__content{
+  width: 100%;
+  padding:0 24px;
+}
+
+.quickorder__content h2{
+  margin-bottom:16px;
+
+}
+
+.quickorder__content span{
+  margin-bottom:24px;
+}
+
+.impressive__button:hover {
+  background-color: #e5b71e;
+  transition-duration: 0.7s;
+}
+
+
+/* подвал */
+
+.footer{
+  line-height: 20px;
+  margin-top:64px;
+  height:100%;
+  width:100%;
+}
+
+.footer__content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: row;
+}
+
+.footer__content  span{
+  margin-bottom:8px;
+}
+
+.logocolumn{
+  width:50%;
+}
+
+.logocolumn__column{
+  width:185px;
+}
+
+.helpcolumn{width:50%;
+ }
+
+.infocolumn{
+  width:50%;
+  }
+
+.infocolumn__column{
+   display: flex;
+   flex-direction: column;
+  gap:8px;
+}
+
+.helpcolumn{
+  margin-top:24px;
+}
+
+.helpcolumn__column{ 
+   display: flex;
+   flex-direction: column;
+  gap:8px;                                                   
+}
+
+
+.logocolumn p{
+  margin-bottom: 16px;
+} 
+
+.socialmediacolumn img{
+  gap:16px;
+  margin:0;
+}
+
+
+.socialmediacolumn{
+  margin-top:24px;
+  width:50%;}
+
+.gloryant{
+    background-color: rgba(137,137,137,0.50);
+    height: 62px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.gloryant .body2{
+  display: inline-block;
+}
+  }
